@@ -16,5 +16,5 @@ describe "songs", type:  :feature do
   it "links to the artist" do
     visit song_path(@song)
     expect(page).to have_link("Daft Punk", href: artist_path(@artist))
-  end
+  end 
 end
